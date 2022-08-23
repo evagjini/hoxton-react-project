@@ -10,6 +10,7 @@
   align-items: center;
   position: relative;
   height: 100px;
+  background: -webkit-linear-gradient(rgb(230, 161, 172), white);
 }
 .flower-logo {
   margin: 0 1rem;
@@ -25,5 +26,5 @@ li {
   padding: 1rem;
   font-size: bold;
   margin-left: 0.5rem;
-  color: #db768a;
+  color: #de3163;
 }
