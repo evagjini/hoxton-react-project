@@ -1,29 +1,22 @@
+import { Link } from "react-router-dom";
+
 export function Header() {
     return (
-        <header
-            className="header">
-            <div className='flower-logo'>
-                Pink Petals
-            </div>
-            <nav className='nav'>
+        <header className="header">
+            <div className="flower-logo">Pink Petals</div>
+            <nav className="nav">
                 <ul>
                     <li>
-                        {/* will create link to see all the flowers */}
-                        All Flowers
+                        <Link to="/flowers"> All Flowers </Link>{" "}
                     </li>
                     <li>
-                        {/*  all the types of flowers*/}
-                        Categories
+                        <Link to="/categories">Categories</Link>
                     </li>
                     <li>
-                        {/* basket */}
-                        Basket
+                        <Link to="basket"> Basket</Link>
                     </li>
                 </ul>
             </nav>
-
-
-
         </header>
-    )
+    );
 }
