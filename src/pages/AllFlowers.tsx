@@ -20,20 +20,20 @@ export function AllFlowers() {
   }, []);
 
   return (
-    <div className="flowers-wraper">
+    <section className="flowers-wraper">
       <ul className="flowers-list">
         {flowers.map((flower) => (
           <li>
             <Link to={`/flowers/${flower.id}`}>
-              <div className="flower-item">
-                <img src={flower.photo} width={250} alt={flower.tittle} />
-                <h3>{flower.tittle}</h3>
-                <span>{flower.price}</span>
-              </div>
+              <article className="flower-item">
+                <img src={flower.photo} alt={flower.tittle} />
+                <h3 className="flower-title">{flower.tittle}</h3>
+                <span className="price">£{flower.price.toFixed(2)}</span>
+              </article>
             </Link>
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   );
 }
