@@ -20,7 +20,7 @@ export function AllFlowers() {
   }, []);
 
   return (
-    <section className="flowers-wraper">
+    <div className="flowers-wraper">
       <ul className="flowers-list">
         {flowers.map((flower) => (
           <li>
@@ -34,6 +34,6 @@ export function AllFlowers() {
           </li>
         ))}
       </ul>
-    </section>
+    </div>
   );
 }
