@@ -1,0 +1,296 @@
+{
+    "categories":[
+        {
+            "id":1,
+            "name":"Shrubs"
+        },
+        {
+            "id":2,
+            "name":"Container Plants"
+        },
+        {
+            "id":3,
+            "name":"Herbaceous Perennials"
+        },
+        {
+            "id":4,
+            "name":"Cacti & Succulents"
+        }
+
+    ],
+
+    "flowerlist": [
+      {
+        "id":1,
+        "price": 15.99,
+        "instructions": "Large double. Good grower, heavy bloomer. Early to mid-season, acid loving plants. Plant in moist well drained soil with pH of 4.0-5.5.",
+        "photo": "https://live.staticflickr.com/4513/37693077542_e9d0555c85_b.jpg",
+        "tittle": "Azalea",
+        "categoryId": 1
+      },
+      {
+         "id":2,
+        "price": 33.99,
+        "instructions": "Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange\\/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.",
+        "photo": "https://www.thespruce.com/thmb/sVQYzYTT9VTZlk-Xbl0CW1p20i0=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/princess-flower-growing-profile-3269233-01-crop-20896922d0cb45e4b2960e5c9163a5a7.jpg",
+        "tittle": "Tibouchina Semidecandra",
+        "categoryId": 1
+      },
+      {
+        "id":3,
+        "price": 12.99,
+        "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
+        "photo": "http://extension.msstate.edu/sites/default/files/sg070222_200.jpg",
+        "tittle": "Hibiscus",
+        "categoryId": 1
+      },
+      {
+        "id":4,
+        "price": 5.99,
+        "instructions": "Quick-growing, herbaceous, shrub reaching up to 30 inches in height, forming a rounded, dense bush.",
+        "photo": "https://hgtvhome.sndimg.com/content/dam/images/grdn/fullset/2014/11/20/0/CI_ci-plectranthus-monalavender-ballfloraplant.jpg.rend.hgtvcom.1280.1920.suffix/1452647985109.jpeg",
+        "tittle": "Plectranthus",
+        "categoryId": 1
+      },
+      {
+        "id":5,
+        "price": 15.99,
+        "instructions": "Slow growing, upright to spreading shrub. Oval, glossy, leaves and profuse winter to spring blooming flowers.",
+        "photo": "https://www.gardenia.net/storage/app/public/uploads/images/detail/39342051_m.webp",
+        "tittle": "Camellia Japonica",
+        "categoryId": 1
+      },
+      {
+        "id":6,
+        "price": 10.99,
+        "instructions": "Thorny woody vine scrambles over other plants with their hooked thorns. Pest free.",
+        "photo": "https://cdn.shopify.com/s/files/1/0615/6746/7748/products/130_6f44b497-f6a2-4dae-a111-85e5c09d1e78.jpg?v=1641031749",
+        "tittle": "Bougainvillea Spectabilis",
+        "categoryId": 1
+      },
+      { "id":7,
+        "price": 22.99,
+        "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
+        "photo": "https://www.monrovia.com/media/catalog/product/cache/e5452c18e1c4fefc7252403522e22bd5/r/e/rest_1_0_10980.jpeg",
+        "tittle": "Rosa Burgundy",
+        "categoryId": 1
+      },
+      {
+        "id":8,
+        "price": 22.99,
+        "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
+        "photo": "https://www.whiteflowerfarm.com/mas_assets/cache/image/5/3/f/4/21492.Jpg",
+        "tittle": "Rosa Iceberg",
+        "categoryId": 1
+      },
+      {
+        "id":9,
+        "price": 45.99,
+        "instructions": "They do not thrive indoors, where the light is too dim, and humidity too low, for them to grow properly.",
+        "photo": "https://gardenerspath.com/wp-content/uploads/2021/09/Introduction-to-Bonsai-Cover.jpg",
+        "tittle": "Bonsai Tree",
+        "categoryId": 2
+      },
+      {
+        "id":10,
+        "price": 12.99,
+        "instructions": "Blooms continuously from early spring to first frost. Full sun or part shade, moist well-drained soil.",
+        "photo": "https://www.kernock.co.uk/acatalog/CLISULI.jpg",
+        "tittle": "Calibrachoa Noa",
+        "categoryId": 2
+      },
+      {
+        "id":11,
+        "price": 14.99,
+        "instructions": "The flowers last about ten weeks. They have a waxy texture and reach a height of more than 20 inches.",
+        "photo": "https://www.mygarden.com/sites/default/files/styles/achor_navigation_s/public/cymbidium-orchid-lead-picture-624627862-istock.jpg?h=547de1d1&itok=7_ykNl64",
+        "tittle": "Cymbidium Aestivum",
+        "categoryId": 2
+      },
+      {
+        "id":12,
+        "price": 4.99,
+        "instructions": "Creamy-white centers, medium green outer foliage with flattened outer foliage.",
+        "photo": "https://oldworldgardenfarms.com/wp-content/uploads/2019/11/flowering-kale-1.jpg",
+        "tittle": "Brassica Oleracea",
+        "categoryId": 2
+      },
+      {
+        "id":13,
+        "price": 4.99,
+        "instructions": "Compact mounds of colorful dainty flowers, good for window boxes. Fertile well drained soil.",
+        "photo": "https://mullerseeds.com/app/uploads/2021/04/viola_cornuta_penny_orange_jump_up51.jpg",
+        "tittle": "Viola Penny Orange Jump Up",
+        "categoryId":2
+      },
+      { "id":14,
+        "price": 5.99,
+        "instructions": "Cotula have very fragrant orange flowers that bloom in the middle of summer.",
+        "photo": "https://static.inaturalist.org/photos/115578909/large.jpg",
+        "tittle": "Cotula",
+        "categoryId": 2
+      },
+      {
+        "id":15,
+        "price": 4.99,
+        "instructions": "Well drained neutral to slightly acid soil, bright light. Do not over-fertilize or these flowers will lose scent.",
+        "photo": "https://images.immediate.co.uk/production/volatile/sites/18/2021/08/Screenshot-2021-08-24-at-15.07.00-ff83f32.jpg?quality=90&fit=2328,1552",
+        "tittle": "Pelargonium Peltatum",
+        "categoryId": 2
+      },
+      {
+        "id":16,
+        "price": 3.99,
+        "instructions": "Compact mounds of colorful dainty flowers, good for window boxes. Fertile well drained soil.",
+        "photo": "https://media.diy.com/is/image/Kingfisher/pansy-blue-shades-mix-autumn-bedding-plant-pack-of-9~3663602773023_01i?$MOB_PREV$&$width=618&$height=618",
+        "tittle": "Pansy Blue Shades",
+        "categoryId": 2
+      },
+      {
+        "id":17,
+        "price": 3.99,
+        "instructions": "Compact mounds of colorful dainty flowers, good for window boxes. Fertile well drained soil.",
+        "photo": "https://gardenerspath.com/wp-content/uploads/2022/03/Rhinegold.jpeg",
+        "tittle": "Pansy Yellow with Blotch",
+        "categoryId": 2
+      },
+      {
+        "id":18,
+        "price": 25.99,
+        "instructions": "Choose the brightest windows in your house for your orchids, place on an humidity tray and spray regularly.",
+        "photo": "https://cdn11.bigcommerce.com/s-ookf1bkiza/product_images/uploaded_images/phalaenopsis-orchid-plant.jpg",
+        "tittle": "Phalaenopsis Purple",
+        "categoryId": 2
+      },
+      {
+        "id":19,
+        "price": 5.99,
+        "instructions": "They thrive in fertile, fast draining, slightly alkaline (pH 6.75) soil. Avoid overwatering.",
+        "photo": "https://www.gardeningknowhow.com/wp-content/uploads/2012/02/dianthus-1-400x533.jpg",
+        "tittle": "Dianthus",
+        "categoryId": 3
+      },
+      {
+        "id":20,
+        "price": 9.99,
+        "instructions": "Chrysanthemums respond to plenty of food and moisture, and prefer full sun.",
+        "photo": "https://www.gardenia.net/storage/app/public/uploads/images/detail/Garden_Mum_Fireglow_Bronze_Bloom_15427Optimized.webp",
+        "tittle": "Chrysanthemum",
+        "categoryId": 3
+      },
+      {
+        "id":21,
+        "price": 7.99,
+        "instructions": "Summer flowering, 12–18” high, likes full sun and well drained soil. Drought tolerant.",
+        "photo": "https://previews.agefotostock.com/previewimage/medibigoff/05c2001fd94341a041645cf141555dd4/dae-96017306.jpg",
+        "tittle": "Armeria Alliacea",
+        "categoryId": 3
+      },
+      {
+        "id":22,
+        "price": 6.99,
+        "instructions": "Grows to 15 inches. The species is easy to grow from seeds or cuttings. This species prefers full sun.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbhFH3ecXlbMdnX8raAP2-ieoSP6dcNxJQGw&usqp=CAU",
+        "tittle": "Salvia Splendens",
+        "categoryId": 3
+      },
+      {
+        "id":23,
+        "price": 8.99,
+        "instructions": "Easily grown, tolerant of drought and poor soil, flower and foliage improves with feeding. Full sun.",
+        "photo": "https://fernview.com.au/assets/virtuemart/product/virtuemart_product_Agapanthus_orien_4e7ed968af5b4.jpg",
+        "tittle": "Agapanthus",
+        "categoryId": 23
+      },
+      {
+        "id":24,
+        "category": "Herbaceous Perennials",
+        "price": 5.99,
+        "instructions": "These plants are very hardy, easy to grow, and increase readily. Average flower size is 3-4 inches in diameter.",
+        "photo": "https://www.gardenia.net/storage/app/public/guides/detail/83847060_mOptimized.webp",
+        "tittle": "Iris Sibirica",
+        "categoryId": 3
+      },
+      {
+        "id":25,
+        "price": 9.99,
+        "instructions": "Chrysanthemums grow best and produce the most flowers if they are planted in full sunshine.",
+        "photo": "https://cdn.mos.cms.futurecdn.net/6ykfCkxRSSd4zURLGSjkXi-1200-80.jpg",
+        "tittle": "Chrysanthemum",
+        "categoryId": 3
+      },
+      {
+        "id":26,
+        "price": 10.99,
+        "instructions": "Grown primarily for its attractive silvergray foliage rather than its yellow flowers. Drought tolerant.",
+        "photo": "https://previews.123rf.com/images/phanasitti/phanasitti1606/phanasitti160600064/59794589-beautiful-dusty-miller-plant-background-in-park-senecio-cineraria-asteraceae.jpg",
+        "tittle": "Senecio Cineraria",
+        "categoryId": 3
+      },
+      {
+        "id":27,
+        "price": 18.99,
+        "instructions": "Add water until there is half inch of dry soil on the surface. Do not water again until the soil is completely dry.",
+        "photo": "https://i.pinimg.com/originals/75/1a/90/751a900bc0dc23fcc27fc100041afb27.jpg",
+        "tittle": "Red Cactus",
+        "categoryId": 4
+      },
+      {
+        "id":28,
+        "price": 30.99,
+        "instructions": "Drought tolerant, well drained soil. Prefers full sun.",
+        "photo": "https://ibizaloe.com/wp-content/uploads/2018/07/caracter%C3%ADsticas-del-aloe-vera.jpg",
+        "tittle": "Aloe Vera",
+        "categoryId": 4
+      },
+      {
+        "id":29,
+        "price": 20.99,
+        "instructions": "Easy to care for, requiring watering only when they’re dry. They like bright but indirect light.",
+        "photo": "https://worldofsucculents.com/wp-content/uploads/2015/06/Schlumbergera-bridgesii-Christmas-Cactus1-1.jpg",
+        "tittle": "Schlumbergera",
+        "categoryId": 4
+      },
+      {
+        "id":30,
+        "price": 18.5,
+        "instructions": "Locate it in a place where it is exposed to at least a few hours of direct sunlight.",
+        "photo": "https://www.mygarden.com/sites/default/files/styles/achor_navigation_s/public/string-of-pearls-senecio-rowleyanus-01481694-florapress.jpg?h=bcee5b65&itok=uHGKwtLK",
+        "tittle": "Senecio Rowleyanus",
+        "categoryId": 4
+      },
+      {
+        "id":31,
+        "price": 12.99,
+        "instructions": "These plants blend in among the stones as a means of protection. Grazing animals would otherwise eat them.",
+        "photo": "https://www.gardenista.com/wp-content/uploads/2018/01/lithops-flowers-succulent-living-stone-dornenwolf-flickr.jpg",
+        "tittle": "Lithops",
+        "categoryId": 4
+      },
+      {
+        "id":32,
+        "price": 55.99,
+        "instructions": "The Mexican Fence Post will eventually reach 20 feet tall. Protect the growing tips with Styrofoam cups on the tops.",
+        "photo": "https://www.mediastorehouse.com.au/p/632/mexico-pipe-organ-cactus-pachycereus-marginatus-15414724.jpg.webp",
+        "tittle": "Pachycereus Marginatus",
+        "categoryId": 32
+      },
+      {
+        "id":33,
+        "category": "Cacti & Succulents",
+        "price": 25.99,
+        "instructions": "Growing as a large roughly spherical globe, it may eventually reach over a meter in height after many years.",
+        "photo": "http://cibercactus.com/wp-content/uploads/2018/01/Echinocactus_grusonii-adulto.jpg",
+        "tittle": "Echinocactus Grusonii",
+        "categoryId": 4
+      },
+      {
+        "id":34,
+        "price": 16.99,
+        "instructions": "The plants should be kept almost completely dry during the winter months, once a month should be fine.",
+        "photo": "https://cdn.britannica.com/31/100631-050-F219B9CB/Prickly-pear-cactus-Arizona.jpg",
+        "tittle": "Opuntia Falcata",
+        "categoryId": 4
+      }
+    ]
+  }
