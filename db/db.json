@@ -292,5 +292,17 @@
         "tittle": "Opuntia Falcata",
         "categoryId": 4
       }
+    ],
+    "basket":[
+      {
+        "id":1,
+        "flowerId": 1,
+        "amount":1
+      },
+      {
+        "id":2,
+        "flowerId": 2,
+        "amount":5
+      }
     ]
   }

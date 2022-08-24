@@ -27,9 +27,12 @@ export function FlowerDescription() {
       <div className="flower-detail">
         <h3> {flower.tittle}</h3>
         <p>{flower.instructions}</p>
-        <span>{flower.price}</span>
+        <span>£{flower.price.toFixed(2)}</span>
         <button className="basket-button">ADD To Basket</button>
       </div>
     </div>
   );
+}
+{
+  /* <i "fa-solid fa-cart-circle-arrow-up"></i> */
 }

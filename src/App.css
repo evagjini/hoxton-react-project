@@ -13,6 +13,8 @@
   font-family: "Times New Roman", Times, serif;
   color: goldenrod;
 }
+.body {
+}
 
 li {
   list-style: none;
@@ -38,6 +40,7 @@ li {
 img {
   width: 250px;
   height: 300px;
+  border-radius: 50%;
 }
 
 .flowers-wraper {
@@ -83,6 +86,7 @@ a {
 .App {
   display: grid;
   grid-template-columns: 2fr 19fr;
+  background-color: ;
 }
 
 .header {
