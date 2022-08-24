@@ -9,14 +9,11 @@ export function Header() {
           <li>
             <Link to="/flowers"> All Flowers </Link>
           </li>
-          <ul>
-            <li>
-              <Link to="/categories">Categories</Link>
-            </li>
-          </ul>
-          {/* <li>
+
+          <li>
             <Link to="/categories">Categories</Link>
-          </li> */}
+          </li>
+
           <li>
             <Link to="basket"> Basket</Link>
           </li>

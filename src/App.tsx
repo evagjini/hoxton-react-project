@@ -4,7 +4,7 @@ import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { AllFlowers } from "./pages/AllFlowers";
 import { FlowerDescription } from "./pages/FlowerDescription";
-// import { Types } from "./pages/Types";
+import { Categories } from "./pages/Categories";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route index element={<Navigate to="/allFlowers" />} />
           <Route path="/flowers" element={<AllFlowers />} />
           <Route path="/flowers/:id" element={<FlowerDescription />} />
-          {/* <Route path="/categores" element={<Types />} /> */}
+          <Route path="/categories" element={<Categories />} />
         </Routes>
       </main>
     </div>
