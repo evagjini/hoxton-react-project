@@ -11,7 +11,7 @@ export function Header() {
           </li>
 
           <li>
-            <Link to="/categories">Categories</Link>
+            <Link to="/categories">Types of Flowers</Link>
           </li>
 
           <li>
