@@ -14,7 +14,7 @@ export function FlowerItem() {
   const params = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/flowers?categoryId=${params.id}`)
+    fetch(`http://localhost:5600/flowers?categoryId=${params.id}`)
       .then((resp) => resp.json())
       .then((flowersFromServer) => setFlowers(flowersFromServer));
   }, []);

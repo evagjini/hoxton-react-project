@@ -8,7 +8,7 @@ export function Categories() {
   const [categories, setCategories] = useState<Category[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/categories")
+    fetch("http://localhost:5600/categories")
       .then((resp) => resp.json())
       .then((categoriesFromServer) => setCategories(categoriesFromServer));
   });

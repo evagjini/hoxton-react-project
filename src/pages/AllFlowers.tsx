@@ -14,7 +14,7 @@ export function AllFlowers() {
   const [flowers, setFlowers] = useState<Flower[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/flowers")
+    fetch("http://localhost:5600/flowers")
       .then((resp) => resp.json())
       .then((flowersFromServer) => setFlowers(flowersFromServer));
   }, []);

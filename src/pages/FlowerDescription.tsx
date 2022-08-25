@@ -13,12 +13,11 @@ type Flower = {
 export function FlowerDescription() {
   const [flower, setFlower] = useState<Flower | null>(null);
   const params = useParams();
-
   useEffect(() => {
-    fetch(`http://localhost:5000/flowers/${params.id}`)
+    fetch(`http://localhost:5600/flowers/${params.id}`)
       .then((resp) => resp.json())
       .then((flowerFromServer) => setFlower(flowerFromServer));
-  }, []);
+  });
 
   if (flower === null) return <h2>Please Wait ....</h2>;
   return (
@@ -28,11 +27,21 @@ export function FlowerDescription() {
         <h3> {flower.tittle}</h3>
         <p>{flower.instructions}</p>
         <span>£{flower.price.toFixed(2)}</span>
-        <button className="basket-button">ADD To Basket</button>
+        <button
+          className="basket-button"
+          onClick={() => {
+            fetch(`http://localhost:5600/basket`, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ productId: flower.id, amount: 1 }),
+            });
+          }}
+        >
+          ADD To Basket
+        </button>
       </div>
     </div>
   );
-}
-{
-  /* <i "fa-solid fa-cart-circle-arrow-up"></i> */
 }

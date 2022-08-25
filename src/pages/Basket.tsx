@@ -17,16 +17,19 @@ type BasketProduct = {
 };
 export function Basket() {
   const [basket, setBasket] = useState<BasketProduct[]>([]);
+
   useEffect(() => {
-    fetch("http://localhost:5000/basket?_expand=flower")
+    fetch("http://localhost:5600/basket?_expand=flower")
       .then((resp) => resp.json())
       .then((basketFromServer) => setBasket(basketFromServer));
   }, []);
-
-  function updateAmoun() {}
-  let total = 0;
-  for (let product of basket) {
-    total += product.amount * product.flower.price;
+  function updateAmount() {}
+  function getTotal() {
+    let total = 0;
+    for (let product of basket) {
+      total += product.amount * product.flower.price;
+    }
+    return total;
   }
 
   return (
@@ -41,13 +44,42 @@ export function Basket() {
                 alt={product.flower.tittle}
                 width="50"
               />
-              <p>{product.flower.instructions}</p>
+              <p>{product.flower.tittle}</p>
               <p>
                 Amn:
                 <select
                   value={product.amount}
                   onChange={(event) => {
-                    console.log(Number(event.target.value));
+                    const newAmount = Number(event.target.value);
+
+                    if (newAmount === 0) {
+                      let basketCopy = basket.filter(
+                        (target) => target.id !== product.id
+                      );
+
+                      fetch(`http://localhost:5600/basket/${product.id}`, {
+                        method: "DELETE",
+                      });
+
+                      setBasket(basketCopy);
+                    } else {
+                      let basketCopy: BasketProduct[] = structuredClone(basket);
+
+                      const match = basketCopy.find(
+                        (target) => target.id === product.id
+                      );
+                      if (!match) return;
+                      match.amount = newAmount;
+                      fetch(`http://localhost:5600/basket/${match.id}`, {
+                        method: "PATCH",
+                        headers: {
+                          "Content-Type": "application/json",
+                          Accept: "application/json",
+                        },
+                        body: JSON.stringify({ amount: newAmount }),
+                      });
+                      setBasket(basketCopy);
+                    }
                   }}
                 >
                   <option value="0">0</option>
@@ -58,12 +90,12 @@ export function Basket() {
                   <option value="5">5</option>
                 </select>
               </p>
-              <p>Total:${(product.flower.price * product.amount).toFixed(2)}</p>
+              <p>Total:£{(product.flower.price * product.amount).toFixed(2)}</p>
             </article>
           </li>
         ))}
       </ul>
-      <h2>Total is:{total.toFixed(2)}</h2>
+      <h2>Total is:{getTotal().toFixed(2)}</h2>
     </div>
   );
 }
