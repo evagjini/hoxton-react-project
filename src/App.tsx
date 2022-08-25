@@ -7,6 +7,7 @@ import { FlowerDescription } from "./pages/FlowerDescription";
 import { Categories } from "./pages/Categories";
 import { FlowerItem } from "./pages/FlowerItem";
 import { Basket } from "./pages/Basket";
+import { Home } from "./pages/Home";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route index element={<Navigate to="/flowers" />} />
+          <Route index element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/flowers" element={<AllFlowers />} />
           <Route path="/flowers/:id" element={<FlowerDescription />} />
           <Route path="/categories" element={<Categories />} />

@@ -281,11 +281,11 @@
     {
       "id": 2,
       "flowerId": 3,
-      "amount": 3
+      "amount": 5
     },
     {
       "flowerId": 1,
-      "amount": 2,
+      "amount": 3,
       "id": 9
     },
     {
@@ -300,13 +300,18 @@
     },
     {
       "flowerId": 27,
-      "amount": 2,
+      "amount": 3,
       "id": 12
     },
     {
       "flowerId": 5,
       "amount": 2,
       "id": 13
+    },
+    {
+      "flowerId": 6,
+      "amount": 3,
+      "id": 14
     }
   ]
 }

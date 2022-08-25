@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { SearchBar } from "./SearchBar";
 
 type Flower = {
   id: number;
@@ -12,6 +13,7 @@ type Flower = {
 
 export function AllFlowers() {
   const [flowers, setFlowers] = useState<Flower[]>([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:5600/flowers")
@@ -19,21 +21,28 @@ export function AllFlowers() {
       .then((flowersFromServer) => setFlowers(flowersFromServer));
   }, []);
 
+  const filteredFlowers = flowers.filter((flower) =>
+    flower.tittle.toLowerCase().includes(search.toLowerCase())
+  );
+
   return (
-    <div className="flowers-wraper">
-      <ul className="flowers-list">
-        {flowers.map((flower) => (
-          <li>
-            <Link to={`/flowers/${flower.id}`}>
-              <article className="flower-item">
-                <img src={flower.photo} alt={flower.tittle} />
-                <h3 className="flower-title">{flower.tittle}</h3>
-                <span className="price">£{flower.price.toFixed(2)}</span>
-              </article>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <SearchBar setSearch={setSearch} />
+      <div className="flowers-wraper">
+        <ul className="flowers-list">
+          {filteredFlowers.map((flower) => (
+            <li>
+              <Link to={`/flowers/${flower.id}`}>
+                <article className="flower-item">
+                  <img src={flower.photo} alt={flower.tittle} />
+                  <h3 className="flower-title">{flower.tittle}</h3>
+                  <span className="price">£{flower.price.toFixed(2)}</span>
+                </article>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
