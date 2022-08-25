@@ -23,7 +23,7 @@ export function Basket() {
       .then((resp) => resp.json())
       .then((basketFromServer) => setBasket(basketFromServer));
   }, []);
-  function updateAmount() {}
+
   function getTotal() {
     let total = 0;
     for (let product of basket) {
@@ -74,7 +74,6 @@ export function Basket() {
                         method: "PATCH",
                         headers: {
                           "Content-Type": "application/json",
-                          Accept: "application/json",
                         },
                         body: JSON.stringify({ amount: newAmount }),
                       });

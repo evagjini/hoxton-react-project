@@ -195,14 +195,6 @@
       "categoryId": 3
     },
     {
-      "id": 23,
-      "price": 8.99,
-      "instructions": "Easily grown, tolerant of drought and poor soil, flower and foliage improves with feeding. Full sun.",
-      "photo": "https://fernview.com.au/assets/virtuemart/product/virtuemart_product_Agapanthus_orien_4e7ed968af5b4.jpg",
-      "tittle": "Agapanthus",
-      "categoryId": 23
-    },
-    {
       "id": 24,
       "category": "Herbaceous Perennials",
       "price": 5.99,
@@ -268,14 +260,6 @@
       "categoryId": 4
     },
     {
-      "id": 32,
-      "price": 55.99,
-      "instructions": "The Mexican Fence Post will eventually reach 20 feet tall. Protect the growing tips with Styrofoam cups on the tops.",
-      "photo": "https://www.mediastorehouse.com.au/p/632/mexico-pipe-organ-cactus-pachycereus-marginatus-15414724.jpg.webp",
-      "tittle": "Pachycereus Marginatus",
-      "categoryId": 32
-    },
-    {
       "id": 33,
       "category": "Cacti & Succulents",
       "price": 25.99,
@@ -295,44 +279,34 @@
   ],
   "basket": [
     {
-      "id": 1,
-      "flowerId": 2,
+      "id": 2,
+      "flowerId": 3,
       "amount": 3
     },
     {
-      "id": 2,
-      "flowerId": 3,
-      "amount": 5
+      "flowerId": 1,
+      "amount": 2,
+      "id": 9
     },
     {
-      "productId": 1,
+      "flowerId": 1,
       "amount": 1,
-      "id": 3
+      "id": 10
     },
     {
-      "productId": 19,
-      "amount": 1,
-      "id": 4
+      "flowerId": 16,
+      "amount": 3,
+      "id": 11
     },
     {
-      "productId": 1,
-      "amount": 1,
-      "id": 5
+      "flowerId": 27,
+      "amount": 2,
+      "id": 12
     },
     {
-      "productId": 1,
-      "amount": 1,
-      "id": 6
-    },
-    {
-      "productId": 1,
-      "amount": 1,
-      "id": 7
-    },
-    {
-      "productId": 1,
-      "amount": 1,
-      "id": 8
+      "flowerId": 5,
+      "amount": 2,
+      "id": 13
     }
   ]
 }
