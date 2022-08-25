@@ -22,7 +22,7 @@
       "id": 1,
       "price": 15.99,
       "instructions": "Large double. Good grower, heavy bloomer. Early to mid-season, acid loving plants. Plant in moist well drained soil with pH of 4.0-5.5.",
-      "photo": "https://live.staticflickr.com/4513/37693077542_e9d0555c85_b.jpg",
+      "photo": "https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=600",
       "tittle": "Azalea",
       "categoryId": 1
     },
@@ -30,7 +30,7 @@
       "id": 2,
       "price": 33.99,
       "instructions": "Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange\\/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.",
-      "photo": "https://www.thespruce.com/thmb/sVQYzYTT9VTZlk-Xbl0CW1p20i0=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/princess-flower-growing-profile-3269233-01-crop-20896922d0cb45e4b2960e5c9163a5a7.jpg",
+      "photo": "https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg?auto=compress&cs=tinysrgb&w=600",
       "tittle": "Tibouchina Semidecandra",
       "categoryId": 1
     },
@@ -38,7 +38,7 @@
       "id": 3,
       "price": 12.99,
       "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
-      "photo": "http://extension.msstate.edu/sites/default/files/sg070222_200.jpg",
+      "photo": "https://images.pexels.com/photos/1704899/pexels-photo-1704899.jpeg?auto=compress&cs=tinysrgb&w=600",
       "tittle": "Hibiscus",
       "categoryId": 1
     },
@@ -279,39 +279,14 @@
   ],
   "basket": [
     {
-      "id": 2,
-      "flowerId": 3,
-      "amount": 5
-    },
-    {
       "flowerId": 1,
-      "amount": 4,
-      "id": 9
-    },
-    {
-      "flowerId": 1,
-      "amount": 1,
-      "id": 10
-    },
-    {
-      "flowerId": 16,
-      "amount": 3,
-      "id": 11
+      "amount": 2,
+      "id": 1
     },
     {
       "flowerId": 27,
-      "amount": 3,
-      "id": 12
-    },
-    {
-      "flowerId": 5,
-      "amount": 2,
-      "id": 13
-    },
-    {
-      "flowerId": 6,
-      "amount": 3,
-      "id": 14
+      "amount": 1,
+      "id": 2
     }
   ]
 }

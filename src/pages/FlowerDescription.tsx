@@ -62,7 +62,7 @@ export function FlowerDescription() {
               });
           }}
         >
-          ADD To Basket
+          Add To Cart
         </button>
       </div>
     </div>

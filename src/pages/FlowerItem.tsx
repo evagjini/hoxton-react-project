@@ -17,7 +17,7 @@ export function FlowerItem() {
     fetch(`http://localhost:5600/flowers?categoryId=${params.id}`)
       .then((resp) => resp.json())
       .then((flowersFromServer) => setFlowers(flowersFromServer));
-  }, []);
+  });
 
   return (
     <div className="flowers-wraper">

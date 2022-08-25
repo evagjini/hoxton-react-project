@@ -34,7 +34,11 @@ export function AllFlowers() {
             <li>
               <Link to={`/flowers/${flower.id}`}>
                 <article className="flower-item">
-                  <img src={flower.photo} alt={flower.tittle} />
+                  <img
+                    className="all-flowers"
+                    src={flower.photo}
+                    alt={flower.tittle}
+                  />
                   <h3 className="flower-title">{flower.tittle}</h3>
                   <span className="price">£{flower.price.toFixed(2)}</span>
                 </article>

@@ -34,7 +34,7 @@ export function Basket() {
 
   return (
     <div className="basket-wraper">
-      <h3> Show Us your Flowers </h3>
+      <h3> Your Basket </h3>
       <ul>
         {basket.map((product) => (
           <li>
@@ -89,7 +89,9 @@ export function Basket() {
                   <option value="5">5</option>
                 </select>
               </p>
-              <p>Total:£{(product.flower.price * product.amount).toFixed(2)}</p>
+              <p className="total">
+                Total:£{(product.flower.price * product.amount).toFixed(2)}
+              </p>
             </article>
           </li>
         ))}
