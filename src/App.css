@@ -19,10 +19,9 @@
 li {
   list-style: none;
 }
-.nav {
+/* .nav {
   /* align-items: ; */
-}
-.nav li {
+*/ .nav li {
   /* display: inline-block; */
   padding: 1rem;
   font-size: bold;
