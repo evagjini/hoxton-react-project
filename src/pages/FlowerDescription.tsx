@@ -23,10 +23,13 @@ export function FlowerDescription() {
 
   if (flower === null) return <h2>Please Wait ....</h2>;
   return (
-    <div>
-      <img className="detail-photo" src={flower.photo} alt={flower.tittle} />
+    <div className="flower-container-description">
+      <div className="single-flower">
+        <img className="detail-photo" src={flower.photo} alt={flower.tittle} />
+      </div>
+
       <div className="flower-detail">
-        <h3> {flower.tittle}</h3>
+        <h3 className="title"> {flower.tittle}</h3>
         <p>{flower.instructions}</p>
         <span>£{flower.price.toFixed(2)}</span>
         <button
