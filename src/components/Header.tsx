@@ -29,8 +29,7 @@ export function Header() {
 
           <li>
             {/* <Link to="/categories">  */}
-            Types of Flowers
-            {/* </Link> */}
+            Types of Flowers :{/* </Link> */}
             <ul>
               {categories.map((category) => (
                 <li key={category.id}>

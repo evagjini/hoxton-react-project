@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <main>
         <Routes>
           <Route index element={<Navigate to="/home" />} />

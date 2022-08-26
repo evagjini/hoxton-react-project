@@ -34,7 +34,7 @@ export function Basket() {
 
   return (
     <div className="basket-wraper">
-      <h3> Your Basket </h3>
+      <h3> Your cart! </h3>
       <ul>
         {basket.map((product) => (
           <li>
@@ -96,7 +96,7 @@ export function Basket() {
           </li>
         ))}
       </ul>
-      <h2>Total is:{getTotal().toFixed(2)}</h2>
+      <h2 className="total-basket">Total is: £{getTotal().toFixed(2)}</h2>
     </div>
   );
 }

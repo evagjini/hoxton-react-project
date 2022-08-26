@@ -280,13 +280,13 @@
   "basket": [
     {
       "flowerId": 1,
-      "amount": 2,
+      "amount": 1,
       "id": 1
     },
     {
-      "flowerId": 27,
-      "amount": 1,
-      "id": 2
+      "flowerId": 31,
+      "amount": 3,
+      "id": 3
     }
   ]
 }
